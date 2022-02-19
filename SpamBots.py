@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [5152972450]
+SMEX_USERS = [5267349380]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -329,7 +329,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝙅𝙊𝙄𝙉𝙀𝘿 ✅")
+                await event.edit("𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋𝐘 𝐉𝐎𝐈𝐍𝐄𝐃 ✅")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🔥 𝙍𝘼𝙁𝙏𝘼𝙍 🔥.!\n`{ms}` ms\n ⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
+        await event.edit(f"🍷 𝙍𝘼𝙁𝙏𝘼𝙍 🍷.!\n`{ms}` ms\n ⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
